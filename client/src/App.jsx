@@ -1,7 +1,11 @@
 const App = () => {
   return ( 
     <div className="">
-      Hello people
+      <div>
+        <input type="text"
+        placeholder="scrape" />
+        <button className="font-poppins">Scrape</button>
+      </div>
     </div>
    );
 }
